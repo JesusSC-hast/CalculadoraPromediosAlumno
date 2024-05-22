@@ -4,13 +4,11 @@ public class Alumno {
     private String nombre;
     private int[] calificaciones;
 
-    // Constructor
     public Alumno(String nombre, int[] calificaciones) {
         this.nombre = nombre;
         this.calificaciones = calificaciones;
     }
 
-    // Getters y Setters (opcional, si deseas usarlos más adelante)
     public String getNombre() {
         return nombre;
     }
